@@ -1,0 +1,199 @@
+
+ *{
+ 
+  box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+
+ body{background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);}
+
+ .dino{
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ nav{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+ }
+ nav .logo{
+  width: 100px;
+ }
+ nav ul li{
+  background: #fff;
+border-radius: 50px;
+padding: 10px;
+box-shadow: 0 25px 20px -20px rgba(0,0,0, 0.4);
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+ }
+
+ nav ul li{
+  background: #3783c2;
+border-radius: 50px;
+padding: 10px;
+box-shadow: 0 25px 20px -20px rgba(0,0,0, 0.4);
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+ }
+ 
+ nav ul li a{
+  text-decoration: none;
+  color: #020a5e;
+  font-size: 17px;
+  
+
+ }
+ .content{
+  text-align: center;
+ }
+
+ .content h1{
+  font-size: 160px;
+  color:#fff;
+  font-weight: 600;
+  transition: 0.5s;
+ }
+
+ .content h1:hover{
+  -webkit-text-stroke: 2px #fff ;
+  color: transparent;
+ }
+
+ .content a{
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  border: 2px solid #fff;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px ;
+
+ }
+
+ .back-video{
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+ }
+
+ 
+ @media (min-aspect-ration: 16/9){
+  .back-video{width: 100%;
+  height: auto;}
+ }
+
+ @media (max-aspect-ration: 16/9){
+  .back-video{width: auto;
+  height: 100%;}
+ }
+
+
+
+ 
+/* dinosaur animation*/
+
+
+.dino-animation{
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+
+.animation-sandbox .box {
+  width: 70%;
+  height: 100px;
+  background-color: var(--sl-color-primary-600);
+  float:inline-end;
+  padding-right: 400px;
+}
+
+.animation-sandbox .controls {
+  max-width: 800px;
+  margin-top: 2rem;
+ 
+}
+
+.animation-sandbox .controls sl-select {
+  margin-bottom: 1rem;
+}
+
+.t-rex h2{
+  font-size: 140px;
+  color:linear-gradient(to top, #09203f 0%, #537895 100%);
+  font-weight: 600;
+
+}
+
+.information p{
+  padding-top: 400px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 30px;
+}
+
+.moza{
+  padding-right: 4000px;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.Mosasaur h3{
+  padding-left: 150px;
+  font-size: 250px;
+  padding-top: 1px;
+}
+.sasor p {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 30px;
+}
+
+.dino1{
+  display:flex;
+  
+}
+
+.slidea{
+  padding-bottom:8%;
+  width:100rem;
+  margin-right: 40px;
+  display:flex;
+  overflow-x:auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.Gallery{
+  padding-left:400px;
+  font-size: 80px;
+  padding-top: 1px;
+  padding-right: 20px;
+
+}
+
+.slide{
+  color: #fff;
+  padding-left:620px;
+  font-size: 20px;
+  padding-top: 1px;
+  padding-right: 20px;
+
+}
