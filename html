@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Nat Geo Dinosaur</title>
+</head>
+
+<body>
+  <div class="dino">
+
+    <video autoplay loop muted play-inline  class="back-video">
+        <source src="video/pexels-julian-johnsonmortimer-6380245 (Original).mp4" type="video/mp4">
+    </video>
+  <nav>
+    <img src="images/white logo.png" class="logo">
+    <ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Facts</a></li>
+<li><a href="#">See more</a></li>
+
+    </ul>
+  </nav>
+
+  <div class="content">
+    <h1>The Jurassic</h1>
+    <a href="#">Explore</a>
+
+  </div>
+
+ </div>
+
+ <section class="dino-animation">
+
+ <div class="animation-sandbox">
+  <sl-animation name="backInLeft" easing="linear" duration="5500" play>
+    <div class="box"> <img src="images/dinosaur-2630969_1280.png"></div>
+  </sl-animation>
+
+  <div class="controls">
+    <sl-select label="Animation" value="backInLeft"></sl-select>
+    <sl-select label="Easing" value="linear"></sl-select>
+    <sl-input label="Play once" type="number" min="10" max="1" step=".10" value="2"></sl-input>
+  </div>
+</div>
+</section>
+
+<div class="t-rex">
+  <sl-animation name="tada" easing="linear" duration="5500" play>
+  <div class="box"><h2> T-Rex </h2></div>
+</div>
+</sl-animation>
+
+<div class="controls">
+  <sl-select label="Animation" value="tada"></sl-select>
+  <sl-select label="Easing" value="linear"></sl-select>
+  <sl-input label="Play once" type="number" min="10" max="1" step=".10" value="2"></sl-input>
+</div>
+</div>
+
+<div class="information">
+  <sl-animation name="fadeIn" easing="linear" duration="10000" play>
+    <div class="box"><p>Tyrannosaurus rex was one of the most ferocious predators to ever walk the Earth. With a massive body, sharp teeth, and jaws so powerful they could crush a car, this famous carnivore dominated the forested river valleys in western North America during the late Cretaceous period, 68 million years ago.
+
+    Although T. rex is a household name, what we know about this tyrannosaur is constantly evolving. Improved technologies, such as biomechanical modeling and x-ray imaging, have allowed scientists to gain a deeper understanding of how this apex predator lived.
+    
+    </p></div>
+  </sl-animation>
+
+  
+  <sl-select label="Animation" value="adeIn"></sl-select>
+  <sl-select label="Easing" value="linear"></sl-select>
+  <sl-input label="Play once" type="number" min="10" max="1" step=".10" value="2"></sl-input>
+</div>
+</div>
+
+<section class="moza">
+  <div class="mozaza">
+    <sl-animation name="shake" easing="linear" duration="5500" play>
+      <div class="box"> <img src="images//Jurassic_world_fallen_kingdom_mosasaurus_by_sonichedgehog2-dcdwzes.webp"></div>
+    </sl-animation>
+  
+    <div class="controls">
+      <sl-select label="Animation" value="shake"></sl-select>
+      <sl-select label="Easing" value="linear"></sl-select>
+      <sl-input label="Play once" type="number" min="10" max="1" step=".10" value="2"></sl-input>
+    </div>
+  </div>
+  
+
+</section>
+<div class="Mosasaur">
+  <sl-animation name="tada" easing="linear" duration="5500" play>
+  <div class="box"><h3> Mosasaur </h3></div>
+</div>
+</sl-animation>
+
+
+  <div class="sasor">
+    <sl-animation name="fadeIn" easing="linear" duration="10000" play>
+      <div class="box"><p>Mosasaurs are very large extinct marine reptiles with some species reaching lengths of over 50 feet and are considered to be some of the fearsome predators to ever inhabit our oceans. They first emerged during the Cretaceous period 90 million years ago, and become the oceans dominant predators with the with the extinction of the ichthyosaurs and decline of plesiosaurs. Mosasaurs went extinct during the Cretaceous-Paleogene extinction event which killed all of the dinosaurs. 
+      </p></div>
+    </sl-animation>
+  
+    
+    <sl-select label="Animation" value="adeIn"></sl-select>
+    <sl-select label="Easing" value="linear"></sl-select>
+    <sl-input label="Play once" type="number" min="10" max="1" step=".10" value="2"></sl-input>
+  </div>
+  </div>
+
+
+<div class="Gallery">
+  <sl-animation name="tada" easing="linear" duration="5500" play>
+  <div class="box"><h4> The T-rex Anatomy </h4></div>
+</div>
+</sl-animation>
+  
+    
+<sl-select label="Animation" value="adeIn"></sl-select>
+<sl-select label="Easing" value="linear"></sl-select>
+<sl-input label="Play once" type="number" min="10" max="1" step=".10" value="2"></sl-input>
+</div>
+</div>
+<div class="slide">
+  <h4>Swipe to see the anatomy </h4>
+ </div>
+
+  <div id="dino1" class="dino1">
+    
+    <span id="bluetext" class="titlea"> </span>
+    <div class="slidea" onmousemove="m(event)">
+      <img class="img" src="images//rj-palmer-rjpalmer-newrex-001.jpg" alt="dino photo">
+        <img class="img" src="images/rj-palmer-rjpalmer-newrex-002.jpg" alt="dino photo">
+        <img class="img" src="images/rj-palmer-rjpalmer-newrex-003.jpg" alt="dino photo">
+        
+      
+    </div>
+</div>
+        
+
+ 
+
+
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/components/animation/animation.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
